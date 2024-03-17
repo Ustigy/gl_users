@@ -1,0 +1,51 @@
+.modalContent {
+    padding: 24px;
+    position: relative;
+}
+
+.modalContent_info {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 40px;
+    row-gap: 14px;
+    margin-bottom: 40px;
+}
+
+.modalContent_icon_close {
+    position: absolute;
+    right: 24px;
+    top: 29px;
+    background-image: url('../../img/modalContent_icon_close.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.modalContent_name{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.modalContent_info_label {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.modalContent_info_value {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.modalContent_additional_title {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.modalContent_additional_text {
+    font-weight: 400;
+    font-size: 16px;
+}
